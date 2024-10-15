@@ -1,2 +1,2 @@
 # project
-this is a small project
+this is a small project.
