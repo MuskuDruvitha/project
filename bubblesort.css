@@ -1,0 +1,56 @@
+.box{
+    height:150px;
+    width:400px;
+    border:2px solid rgb(140, 211, 140);;
+    padding:10px;
+    margin:20px;
+    border-radius:15px;
+    justify-content:space-evenly;
+    color:black;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+button{
+    margin:20px;
+    width:350px;
+    height:25px;
+    border-radius:10px;
+    background-color:rgb(62, 242, 62)
+   
+}
+h1{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    background-color:rgb(58, 149, 58);
+    height:80px;
+    padding-top: 30px;
+}
+#number-input{
+    justify-content:space-around;
+    width:223px;
+    height:22px;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkgreen;
+    padding:4px;
+}
+.Intro {
+    height:200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(140, 211, 140);
+    font-family:arial;
+    border:2px solid rgb(140, 211, 140);
+    color:black;
+    font-size: larger;
+    background-color: white;
+}
+.Intro p{
+    padding-left:8px;
+}
+.box:hover {
+    box-shadow:4px 8px 25px rgb(99, 236, 99) ;
+}
