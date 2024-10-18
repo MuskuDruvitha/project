@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort Input and Output</title>
+    <link rel="stylesheet" href="bubblesort.css">
+</head>
+<body>
+    <h1>Bubble Sort Visualization</h1>
+    <div class="Intro">
+        <h2><b>About</h2>
+        <p>Bubble sort is a simple sorting algorithm that repeatedly steps through a list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until no swaps are needed, indicating that the list is sorted. While easy to understand and implement, it is not very efficient for large datasets, with an average time complexity of O(n²).</p>
+    </div>
+<div class="container">
+    <div class="box">
+         <label for="number-input"><b>Enter numbers:</b></label>
+         <input type="text"id="number-input"placeholder="Enter numbers separated by commas" />
+         <button onclick="bubbleSort()">Sort Numbers</button>
+         <div id="result"></div>
+        <script src="bubblesort.js"></script>
+    </div>
+</div>
+</body>
+</html>
